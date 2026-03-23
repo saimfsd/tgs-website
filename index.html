@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,9 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
+
 <body class="tail-container text-gray-800 bg-[#F4F6F8]">
     <!-- NAVBAR -->
     <nav class="bg-[#0A1931] text-white sticky top-0 z-50 shadow-xl">
@@ -77,51 +80,52 @@
         <div id="home-page" class="page active">
 
             <!-- HERO -->
-           <section class="hero-bg h-screen flex items-center text-white">
-    <div class="max-w-5xl mx-auto px-6 text-center">
+            <section class="hero-bg h-screen flex items-center text-white">
+                <div class="max-w-5xl mx-auto px-6 text-center">
 
-        <div data-aos="fade-up" class="max-w-3xl mx-auto">
+                    <div data-aos="fade-up" class="max-w-3xl mx-auto">
 
-            <!-- TOP BADGE -->
-            <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md px-5 py-2 rounded-3xl text-sm mb-6">
-                <div class="w-3 h-3 bg-[#F5B400] rounded-full animate-pulse"></div>
-                BUILDING PROFITABLE BUSINESSES WITH DATA
-            </div>
+                        <!-- TOP BADGE -->
+                        <div
+                            class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md px-5 py-2 rounded-3xl text-sm mb-6">
+                            <div class="w-3 h-3 bg-[#F5B400] rounded-full animate-pulse"></div>
+                            BUILDING PROFITABLE BUSINESSES WITH DATA
+                        </div>
 
-            <!-- MAIN HEADING -->
-            <h1 class="text-6xl md:text-7xl font-semibold leading-tight logo-font tracking-tighter mb-6">
-                We Don’t Build Websites<br>
-                <span class="text-[#F5B400]">We Build Profitable Systems</span>
-            </h1>
+                        <!-- MAIN HEADING -->
+                        <h1 class="text-6xl md:text-7xl font-semibold leading-tight logo-font tracking-tighter mb-6">
+                            We Don’t Build Websites<br>
+                            <span class="text-[#F5B400]">We Build Profitable Systems</span>
+                        </h1>
 
-            <!-- SUBTEXT -->
-            <p class="text-xl text-gray-300 max-w-2xl mx-auto mb-10 leading-relaxed">
-                TGS (The Growth Source) identifies real market demand, validates profit,
-                and builds scalable business systems that generate consistent revenue.
-            </p>
+                        <!-- SUBTEXT -->
+                        <p class="text-xl text-gray-300 max-w-2xl mx-auto mb-10 leading-relaxed">
+                            TGS (The Growth Source) identifies real market demand, validates profit,
+                            and builds scalable business systems that generate consistent revenue.
+                        </p>
 
-            <!-- BUTTONS -->
-            <div class="flex flex-col sm:flex-row gap-5 justify-center">
-                <button onclick="showPage('contact')"
-                    class="px-10 py-5 bg-[#F5B400] hover:bg-amber-400 text-[#0A1931] font-bold text-lg rounded-3xl transition-all shadow-2xl">
-                    Start Your Business →
-                </button>
+                        <!-- BUTTONS -->
+                        <div class="flex flex-col sm:flex-row gap-5 justify-center">
+                            <button onclick="showPage('contact')"
+                                class="px-10 py-5 bg-[#F5B400] hover:bg-amber-400 text-[#0A1931] font-bold text-lg rounded-3xl transition-all shadow-2xl">
+                                Start Your Business →
+                            </button>
 
-                <button onclick="showPage('services')"
-                    class="px-10 py-5 border-2 border-white hover:bg-white hover:text-[#0A1931] font-medium text-lg rounded-3xl transition-all">
-                    See How It Works
-                </button>
-            </div>
+                            <button onclick="showPage('services')"
+                                class="px-10 py-5 border-2 border-white hover:bg-white hover:text-[#0A1931] font-medium text-lg rounded-3xl transition-all">
+                                See How It Works
+                            </button>
+                        </div>
 
-        </div>
-    </div>
+                    </div>
+                </div>
 
-    <!-- SCROLL -->
-    <div class="absolute bottom-12 left-1/2 flex flex-col items-center gap-2 animate-bounce">
-        <span class="text-xs tracking-widest">SCROLL TO EXPLORE</span>
-        <i class="fa-solid fa-chevron-down text-2xl"></i>
-    </div>
-</section>
+                <!-- SCROLL -->
+                <div class="absolute bottom-12 left-1/2 flex flex-col items-center gap-2 animate-bounce">
+                    <span class="text-xs tracking-widest">SCROLL TO EXPLORE</span>
+                    <i class="fa-solid fa-chevron-down text-2xl"></i>
+                </div>
+            </section>
 
             <!-- ABOUT PREVIEW -->
             <section class="py-24 bg-white" data-aos="fade-up">
@@ -333,71 +337,164 @@
             </section>
 
             <!-- PROJECTS PREVIEW -->
-            <section class="py-24 bg-[#F4F6F8]">
-                <div class="max-w-7xl mx-auto px-6">
-                    <div class="flex justify-between items-end mb-12">
-                        <div>
-                            <span class="text-[#1F6FEB]">REAL RESULTS</span>
-                            <h2 class="text-5xl font-semibold logo-font">Featured Projects</h2>
-                        </div>
-                        <button onclick="showPage('projects')"
-                            class="hidden md:flex items-center gap-3 text-[#1F6FEB] font-medium">
-                            View All Projects <i class="fa-solid fa-arrow-right"></i>
-                        </button>
-                    </div>
-                    <div class="grid md:grid-cols-3 gap-8">
-                        <!-- Project 1 -->
-                        <div onclick="showPage('projects')"
-                            class="project-card bg-white rounded-3xl overflow-hidden shadow-lg cursor-pointer">
-                            <img src="https://picsum.photos/id/1015/800/600" alt="Real Estate CRM"
-                                class="w-full h-64 object-cover">
-                            <div class="p-8">
-                                <span class="text-xs bg-[#1F6FEB] text-white px-4 py-1 rounded-full">Real Estate</span>
-                                <h3 class="font-semibold text-2xl mt-4">SkyVilla Realty CRM</h3>
-                                <p class="text-gray-600 mt-2 line-clamp-2">Custom CRM + website that increased lead
-                                    conversion by 340%.</p>
-                                <div class="mt-6 flex justify-between text-sm">
-                                    <span class="text-[#F5B400]">+340% Leads</span>
-                                    <span class="text-gray-500">Nashik, 2025</span>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Project 2 -->
-                        <div onclick="showPage('projects')"
-                            class="project-card bg-white rounded-3xl overflow-hidden shadow-lg cursor-pointer">
-                            <img src="https://picsum.photos/id/201/800/600" alt="E-commerce Store"
-                                class="w-full h-64 object-cover">
-                            <div class="p-8">
-                                <span class="text-xs bg-[#1F6FEB] text-white px-4 py-1 rounded-full">Fashion
-                                    Retail</span>
-                                <h3 class="font-semibold text-2xl mt-4">TrendVibe Store</h3>
-                                <p class="text-gray-600 mt-2 line-clamp-2">Shopify store + automation that generated
-                                    ₹2.8 Cr in first year.</p>
-                                <div class="mt-6 flex justify-between text-sm">
-                                    <span class="text-[#F5B400]">₹2.8 Cr Revenue</span>
-                                    <span class="text-gray-500">Mumbai, 2024</span>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Project 3 -->
-                        <div onclick="showPage('projects')"
-                            class="project-card bg-white rounded-3xl overflow-hidden shadow-lg cursor-pointer">
-                            <img src="https://picsum.photos/id/251/800/600" alt="Startup SaaS"
-                                class="w-full h-64 object-cover">
-                            <div class="p-8">
-                                <span class="text-xs bg-[#1F6FEB] text-white px-4 py-1 rounded-full">SaaS Startup</span>
-                                <h3 class="font-semibold text-2xl mt-4">EduTrack LMS</h3>
-                                <p class="text-gray-600 mt-2 line-clamp-2">Full SaaS platform with AI analytics used by
-                                    12,000 students.</p>
-                                <div class="mt-6 flex justify-between text-sm">
-                                    <span class="text-[#F5B400]">12K Users</span>
-                                    <span class="text-gray-500">Pune, 2025</span>
-                                </div>
-                            </div>
-                        </div>
+          <section class="py-28 bg-[#F4F6F8]">
+    <div class="max-w-7xl mx-auto px-6">
+
+        <!-- HEADER -->
+        <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-16 gap-6">
+            <div>
+                <span class="text-[#1F6FEB] text-sm font-bold tracking-wider uppercase">Real Results</span>
+                <h2 class="text-5xl font-bold text-[#0A1931] mt-2">Featured Projects</h2>
+                <p class="text-gray-600 mt-4 max-w-lg">
+                    Real businesses. Real systems. Real results. See how TGS transforms ideas into revenue.
+                </p>
+            </div>
+
+            <!-- VIEW ALL -->
+            <button onclick="showPage('projects')"
+                class="flex items-center gap-2 text-[#1F6FEB] font-semibold hover:gap-4 transition">
+                View All Projects <i class="fa-solid fa-arrow-right"></i>
+            </button>
+        </div>
+
+        <!-- GRID -->
+        <div class="grid md:grid-cols-4 gap-8">
+
+            <!-- PROJECT 1 -->
+            <div class="group bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl hover:-translate-y-2 transition duration-500">
+
+                <div class="relative overflow-hidden">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPQTh2P-4IXt28QMWxWcP3v1kO9vtMtvq4Mg&s"
+                        class="w-full h-56 object-cover group-hover:scale-110 transition duration-500">
+
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition"></div>
+
+                    <div class="absolute bottom-4 left-4 bg-[#F5B400] text-[#0A1931] px-4 py-1 rounded-full text-sm font-bold">
+                        +250% Growth
                     </div>
                 </div>
-            </section>
+
+                <div class="p-6">
+                    <span class="text-xs bg-[#1F6FEB]/10 text-[#1F6FEB] px-3 py-1 rounded-full">
+                        Agro Business
+                    </span>
+
+                    <h3 class="font-bold text-xl mt-3 text-[#0A1931]">
+                        Mayur Agro Agency
+                    </h3>
+
+                    <p class="text-gray-600 mt-2 text-sm">
+                        Website + digital system to improve customer reach and increase local sales.
+                    </p>
+
+                    <button class="mt-5 text-[#1F6FEB] font-semibold flex items-center gap-2 hover:gap-3 transition">
+                     <a href="https://vaishufullstackdeveloper.github.io/agro_agency_website/">   View Project</a><i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- PROJECT 2 -->
+            <div class="group bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl hover:-translate-y-2 transition duration-500">
+
+                <div class="relative overflow-hidden">
+                    <img src="./images/grampanchayt -image.png"
+                        class="w-full h-56 object-cover group-hover:scale-110 transition duration-500">
+
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition"></div>
+
+                    <div class="absolute bottom-4 left-4 bg-[#F5B400] text-[#0A1931] px-4 py-1 rounded-full text-sm font-bold">
+                        Smart System
+                    </div>
+                </div>
+
+                <div class="p-6">
+                    <span class="text-xs bg-[#1F6FEB]/10 text-[#1F6FEB] px-3 py-1 rounded-full">
+                        Government
+                    </span>
+
+                    <h3 class="font-bold text-xl mt-3 text-[#0A1931]">
+                        Grampanchayat Village
+                    </h3>
+
+                    <p class="text-gray-600 mt-2 text-sm">
+                        Digital platform to manage village services and improve communication.
+                    </p>
+
+                    <button class="mt-5 text-[#1F6FEB] font-semibold flex items-center gap-2 hover:gap-3 transition">
+                      <a href="https://vaishufullstackdeveloper.github.io/GP_live_webside/">  View Project</a> <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- PROJECT 3 -->
+            <div class="group bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl hover:-translate-y-2 transition duration-500">
+
+                <div class="relative overflow-hidden">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS_pCOey6-wgp4LH5n8eLZX2i7lx7kW0rc8A&s"
+                        class="w-full h-56 object-cover group-hover:scale-110 transition duration-500">
+
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition"></div>
+
+                    <div class="absolute bottom-4 left-4 bg-[#F5B400] text-[#0A1931] px-4 py-1 rounded-full text-sm font-bold">
+                        Event Growth
+                    </div>
+                </div>
+
+                <div class="p-6">
+                    <span class="text-xs bg-[#1F6FEB]/10 text-[#1F6FEB] px-3 py-1 rounded-full">
+                        Event Business
+                    </span>
+
+                    <h3 class="font-bold text-xl mt-3 text-[#0A1931]">
+                        Taj Decoration
+                    </h3>
+
+                    <p class="text-gray-600 mt-2 text-sm">
+                        Portfolio website + booking system for event decoration services.
+                    </p>
+
+                    <button class="mt-5 text-[#1F6FEB] font-semibold flex items-center gap-2 hover:gap-3 transition">
+                     <a href="https://saimfsd.github.io/Tajdecoration/">View Project </a>   <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- PROJECT 4 -->
+            <div class="group bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl hover:-translate-y-2 transition duration-500">
+
+                <div class="relative overflow-hidden">
+                    <img src="https://www.poojasales.in/blog/wp-content/uploads/2021/10/Aluminium-Windows-and-Doors.jpg"
+                        class="w-full h-56 object-cover group-hover:scale-110 transition duration-500">
+
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition"></div>
+
+                    <div class="absolute bottom-4 left-4 bg-[#F5B400] text-[#0A1931] px-4 py-1 rounded-full text-sm font-bold">
+                        Local Brand Boost
+                    </div>
+                </div>
+
+                <div class="p-6">
+                    <span class="text-xs bg-[#1F6FEB]/10 text-[#1F6FEB] px-3 py-1 rounded-full">
+                        Manufacturing
+                    </span>
+
+                    <h3 class="font-bold text-xl mt-3 text-[#0A1931]">
+                        Jain Aluminium
+                    </h3>
+
+                    <p class="text-gray-600 mt-2 text-sm">
+                        Business website showcasing services and generating local leads.
+                    </p>
+
+                    <button class="mt-5 text-[#1F6FEB] font-semibold flex items-center gap-2 hover:gap-3 transition">
+                     <a href="https://saimfsd.github.io/jainAluminium/">   View Project</a> <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
 
             <!-- REFERRAL TEASER -->
             <section class="py-20 bg-gradient-to-r from-[#0A1931] to-[#1F6FEB] text-white">
@@ -494,7 +591,7 @@
                     </div>
                     <div>
                         <h4 class="font-semibold mb-6">Contact</h4>
-                        <p class="text-sm">+91 98765 43210<br>hello@tgsindia.com<br>Nashik, Maharashtra</p>
+                        <p class="text-sm">9764090337<br>tgsoofficialacgmail<br>Nagpur, Maharashtra</p>
                     </div>
                     <div class="flex gap-6 text-2xl">
                         <i class="fa-brands fa-linkedin hover:text-[#F5B400] cursor-pointer"></i>
@@ -507,819 +604,815 @@
             </footer>
         </div>
         <!-- ==================== ABOUT PAGE ==================== -->
-       <div id="about-page" class="page">
+        <div id="about-page" class="page">
 
-    <!-- HERO -->
-    <div class="hero-bg h-[70vh] flex items-center text-white relative">
-        <div class="max-w-4xl mx-auto px-6 text-center">
-            <h1 class="text-6xl font-bold logo-font">About TGS</h1>
+            <!-- HERO -->
+            <div class="hero-bg h-[70vh] flex items-center text-white relative">
+                <div class="max-w-4xl mx-auto px-6 text-center">
+                    <h1 class="text-6xl font-bold logo-font">About TGS</h1>
 
-            <p class="mt-8 text-2xl max-w-2xl mx-auto leading-relaxed">
-                We don’t just build websites. 
-                We build <span class="text-[#F5B400] font-semibold">profitable business systems</span>
-                backed by real demand, data, and execution.
-            </p>
-        </div>
-    </div>
+                    <p class="mt-8 text-2xl max-w-2xl mx-auto leading-relaxed">
+                        We don’t just build websites.
+                        We build <span class="text-[#F5B400] font-semibold">profitable business systems</span>
+                        backed by real demand, data, and execution.
+                    </p>
+                </div>
+            </div>
 
-    <!-- STORY -->
-    <section class="py-24 bg-white">
-        <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-20">
+            <!-- STORY -->
+            <section class="py-24 bg-white">
+                <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-20">
 
-            <!-- LEFT -->
-            <div data-aos="fade-right">
-                <h2 class="text-5xl font-semibold logo-font">Our Story</h2>
+                    <!-- LEFT -->
+                    <div data-aos="fade-right">
+                        <h2 class="text-5xl font-semibold logo-font">Our Story</h2>
 
-                <p class="mt-10 text-lg leading-relaxed text-gray-600">
-                    TGS (The Growth Source) was not started as just another IT company.  
-                    It was built with a clear vision — to create businesses that actually make money.
-                </p>
+                        <p class="mt-10 text-lg leading-relaxed text-gray-600">
+                            TGS (The Growth Source) was not started as just another IT company.
+                            It was built with a clear vision — to create businesses that actually make money.
+                        </p>
 
-                <p class="mt-6 text-lg leading-relaxed text-gray-600">
-                    In today’s market, most people start with ideas and emotions.  
-                    But at TGS, we follow a different approach — 
-                    <strong>we start with demand, validate profit, and then build systems.</strong>
-                </p>
+                        <p class="mt-6 text-lg leading-relaxed text-gray-600">
+                            In today’s market, most people start with ideas and emotions.
+                            But at TGS, we follow a different approach —
+                            <strong>we start with demand, validate profit, and then build systems.</strong>
+                        </p>
 
-                <p class="mt-6 text-lg leading-relaxed text-gray-600">
-                    From digital services to scalable ventures, our goal is simple:  
-                    build, grow, and manage businesses that generate consistent revenue.
-                </p>
+                        <p class="mt-6 text-lg leading-relaxed text-gray-600">
+                            From digital services to scalable ventures, our goal is simple:
+                            build, grow, and manage businesses that generate consistent revenue.
+                        </p>
 
-                <!-- STATS -->
-                <div class="mt-12 bg-[#F4F6F8] p-8 rounded-3xl shadow-sm">
-                    <div class="flex items-center gap-6">
-                        <div class="text-6xl font-bold text-[#F5B400]">TGS</div>
-                        <div>
-                            <div class="font-semibold text-lg">The Growth Source</div>
-                            <div class="text-sm text-gray-500">
-                                Building systems, not just services
+                        <!-- STATS -->
+                        <div class="mt-12 bg-[#F4F6F8] p-8 rounded-3xl shadow-sm">
+                            <div class="flex items-center gap-6">
+                                <div class="text-6xl font-bold text-[#F5B400]">TGS</div>
+                                <div>
+                                    <div class="font-semibold text-lg">The Growth Source</div>
+                                    <div class="text-sm text-gray-500">
+                                        Building systems, not just services
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
+
+                    <!-- RIGHT -->
+                    <div data-aos="fade-left">
+                        <div class="space-y-12">
+
+                            <div>
+                                <div class="uppercase text-[#1F6FEB] text-xs tracking-widest font-bold">VISION</div>
+                                <p class="mt-3 text-2xl leading-relaxed">
+                                    To build and scale multiple profitable businesses across industries using
+                                    data-driven systems.
+                                </p>
+                            </div>
+
+                            <div>
+                                <div class="uppercase text-[#1F6FEB] text-xs tracking-widest font-bold">MISSION</div>
+                                <p class="mt-3 text-2xl leading-relaxed">
+                                    Identify real market demand, validate profitability, and execute with precision.
+                                </p>
+                            </div>
+
+                            <div>
+                                <div class="uppercase text-[#1F6FEB] text-xs tracking-widest font-bold">PHILOSOPHY</div>
+                                <p class="mt-3 text-2xl leading-relaxed">
+                                    No assumptions. No emotions. Only data, systems, and profit.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+
                 </div>
-            </div>
+            </section>
 
-            <!-- RIGHT -->
-            <div data-aos="fade-left">
-                <div class="space-y-12">
+            <!-- HOW TGS WORKS -->
+            <section class="py-24 bg-[#F4F6F8] text-center">
+                <h2 class="text-5xl font-semibold">How TGS Works</h2>
 
-                    <div>
-                        <div class="uppercase text-[#1F6FEB] text-xs tracking-widest font-bold">VISION</div>
-                        <p class="mt-3 text-2xl leading-relaxed">
-                            To build and scale multiple profitable businesses across industries using data-driven systems.
-                        </p>
+                <div class="mt-16 grid md:grid-cols-4 gap-8 max-w-6xl mx-auto px-6">
+
+                    <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl transition">
+                        <h3 class="font-bold text-lg">1. Find Idea</h3>
+                        <p class="text-sm text-gray-600 mt-2">Identify real opportunity</p>
                     </div>
 
-                    <div>
-                        <div class="uppercase text-[#1F6FEB] text-xs tracking-widest font-bold">MISSION</div>
-                        <p class="mt-3 text-2xl leading-relaxed">
-                            Identify real market demand, validate profitability, and execute with precision.
-                        </p>
+                    <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl transition">
+                        <h3 class="font-bold text-lg">2. Validate Demand</h3>
+                        <p class="text-sm text-gray-600 mt-2">Check market need</p>
                     </div>
 
-                    <div>
-                        <div class="uppercase text-[#1F6FEB] text-xs tracking-widest font-bold">PHILOSOPHY</div>
-                        <p class="mt-3 text-2xl leading-relaxed">
-                            No assumptions. No emotions. Only data, systems, and profit.
-                        </p>
+                    <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl transition">
+                        <h3 class="font-bold text-lg">3. Build System</h3>
+                        <p class="text-sm text-gray-600 mt-2">Create scalable model</p>
+                    </div>
+
+                    <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl transition">
+                        <h3 class="font-bold text-lg">4. Generate Profit</h3>
+                        <p class="text-sm text-gray-600 mt-2">Focus on revenue</p>
                     </div>
 
                 </div>
-            </div>
+            </section>
+
+            <!-- TEAM -->
+            <section class="py-28 bg-[#F4F6F8]">
+                <div class="max-w-7xl mx-auto px-6">
+
+                    <!-- HEADING -->
+                    <div class="text-center mb-20">
+                        <h2 class="text-5xl font-bold text-[#0A1931]">Meet The Team</h2>
+                        <p class="mt-4 text-lg text-gray-600">
+                            The people behind TGS who turn ideas into profitable systems
+                        </p>
+                    </div>
+
+                    <!-- GRID -->
+                    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
+
+                        <!-- CARD -->
+                        <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition group">
+
+                            <!-- IMAGE FIX -->
+                            <div class="relative w-full aspect-[4/5] overflow-hidden bg-gray-200">
+                                <img src="./images/WhatsApp Image 2026-03-19 at 19.33.12.jpeg"
+                                    class="w-full h-full object-cover object-top group-hover:scale-105 transition duration-500">
+                            </div>
+
+                            <!-- CONTENT -->
+                            <div class="p-8 text-center">
+                                <h3 class="text-2xl font-bold text-[#0A1931]">Saim Kazi</h3>
+                                <p class="text-[#1F6FEB] font-semibold mt-1">Founder</p>
+                                <p class="mt-4 text-gray-600 text-sm leading-relaxed">
+                                    Leads TGS with a vision to build profitable business systems based on real demand
+                                    and data.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- PRAFUL -->
+                        <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition group">
+                            <div class="relative w-full aspect-[4/5] overflow-hidden bg-gray-200">
+                                <img src="./images/496510240_576862804971005_7353621515092664104_n_576862801637672 - Praful Kharpuriye.jpg"
+                                    class="w-full h-full object-cover object-top group-hover:scale-105 transition duration-500">
+                            </div>
+                            <div class="p-8 text-center">
+                                <h3 class="text-2xl font-bold text-[#0A1931]">Praful</h3>
+                                <p class="text-[#1F6FEB] font-semibold mt-1">Co-Founder</p>
+                                <p class="mt-4 text-gray-600 text-sm">
+                                    Ensures smooth operations and supports execution of TGS business systems.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- SUJAL -->
+                        <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition group">
+                            <div class="relative w-full aspect-[4/5] overflow-hidden bg-gray-200">
+                                <img src="./images/IMG_20260311_205714994_HDR - Sujal Hirade.jpg"
+                                    class="w-full h-full object-cover object-top group-hover:scale-105 transition duration-500">
+                            </div>
+                            <div class="p-8 text-center">
+                                <h3 class="text-2xl font-bold text-[#0A1931]">Sujal</h3>
+                                <p class="text-[#1F6FEB] font-semibold mt-1">Client Manager</p>
+                                <p class="mt-4 text-gray-600 text-sm">
+                                    Manages client relationships and ensures smooth communication and delivery.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- VAISHALI -->
+                        <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition group">
+                            <div class="relative w-full aspect-[4/5] overflow-hidden bg-gray-200">
+                                <img src="https://via.placeholder.com/400x500"
+                                    class="w-full h-full object-cover object-center group-hover:scale-105 transition duration-500">
+                            </div>
+                            <div class="p-8 text-center">
+                                <h3 class="text-2xl font-bold text-[#0A1931]">Vaishali</h3>
+                                <p class="text-[#1F6FEB] font-semibold mt-1">Web Designer</p>
+                                <p class="mt-4 text-gray-600 text-sm">
+                                    Designs modern, user-friendly interfaces that improve experience and conversions.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- MAHESH -->
+                        <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition group">
+                            <div class="relative w-full aspect-[4/5] overflow-hidden bg-gray-200">
+                                <img src="./images/1704029724067 - Mahesh Bhakre.jpg"
+                                    class="w-full h-full object-cover object-top group-hover:scale-105 transition duration-500">
+                            </div>
+                            <div class="p-8 text-center">
+                                <h3 class="text-2xl font-bold text-[#0A1931]">Mahesh</h3>
+                                <p class="text-[#1F6FEB] font-semibold mt-1">Research & Lead Generation</p>
+                                <p class="mt-4 text-gray-600 text-sm">
+                                    Finds business opportunities by researching companies and identifying gaps.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- AMMAR -->
+                        <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition group">
+                            <div class="relative w-full aspect-[4/5] overflow-hidden bg-gray-200">
+                                <img src="./images/1766154966428 - Ammar Khan Pathan.jpg"
+                                    class="w-full h-full object-cover object-top group-hover:scale-105 transition duration-500">
+                            </div>
+                            <div class="p-8 text-center">
+                                <h3 class="text-2xl font-bold text-[#0A1931]">Ammar</h3>
+                                <p class="text-[#1F6FEB] font-semibold mt-1">Creative Specialist</p>
+                                <p class="mt-4 text-gray-600 text-sm">
+                                    Brings creativity and innovative ideas to design, branding, and content.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Samiksha -->
+                        <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition group">
+                            <div class="relative w-full aspect-[4/5] overflow-hidden bg-gray-200">
+                                <img src="images/soham.jpg"
+                                    class="w-full h-full object-cover object-top group-hover:scale-105 transition duration-500">
+                            </div>
+                            <div class="p-8 text-center">
+                                <h3 class="text-2xl font-bold text-[#0A1931]">Samiksha</h3>
+                                <p class="text-[#1F6FEB] font-semibold mt-1">Web developer </p>
+                                <p class="mt-4 text-gray-600 text-sm">
+                                    Handles client discussions and ensures clear understanding of requirements.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
 
         </div>
-    </section>
+        </section>
+    </div>
 
-    <!-- HOW TGS WORKS -->
-    <section class="py-24 bg-[#F4F6F8] text-center">
-        <h2 class="text-5xl font-semibold">How TGS Works</h2>
 
-        <div class="mt-16 grid md:grid-cols-4 gap-8 max-w-6xl mx-auto px-6">
-
-            <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl transition">
-                <h3 class="font-bold text-lg">1. Find Idea</h3>
-                <p class="text-sm text-gray-600 mt-2">Identify real opportunity</p>
+    <!-- ==================== SERVICES PAGE ==================== -->
+    <div id="services-page" class="page">
+        <div class="bg-[#0A1931] py-24 text-white">
+            <div class="max-w-6xl mx-auto px-6 text-center">
+                <span class="text-[#F5B400] text-sm font-bold">SERVICES</span>
+                <h1 class="text-6xl font-semibold logo-font mt-4">Everything You Need to Grow</h1>
             </div>
-
-            <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl transition">
-                <h3 class="font-bold text-lg">2. Validate Demand</h3>
-                <p class="text-sm text-gray-600 mt-2">Check market need</p>
-            </div>
-
-            <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl transition">
-                <h3 class="font-bold text-lg">3. Build System</h3>
-                <p class="text-sm text-gray-600 mt-2">Create scalable model</p>
-            </div>
-
-            <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl transition">
-                <h3 class="font-bold text-lg">4. Generate Profit</h3>
-                <p class="text-sm text-gray-600 mt-2">Focus on revenue</p>
-            </div>
-
         </div>
-    </section>
 
-    <!-- TEAM -->
-    <section class="py-28 bg-[#F4F6F8]">
-    <div class="max-w-7xl mx-auto px-6">
+        <div class="max-w-7xl mx-auto px-6 py-20 space-y-28">
+            <!-- Website Development -->
+            <div class="grid md:grid-cols-12 gap-16 items-center">
+                <div class="md:col-span-5">
+                    <i class="fa-solid fa-globe text-[180px] text-[#1F6FEB]"></i>
+                </div>
+                <div class="md:col-span-7">
+                    <h2 class="text-5xl font-semibold">Website Development</h2>
+                    <p class="mt-8 text-xl text-gray-600">Modern, lightning-fast websites built with Next.js,
+                        Tailwind &amp; Framer Motion. Fully responsive, SEO-ready, and conversion-focused.</p>
+                    <ul class="mt-10 space-y-6 text-lg">
+                        <li class="flex gap-4"><i class="fa-solid fa-check text-[#F5B400]"></i> Custom design &amp;
+                            branding</li>
+                        <li class="flex gap-4"><i class="fa-solid fa-check text-[#F5B400]"></i> CMS integration
+                            (WordPress / Sanity)</li>
+                        <li class="flex gap-4"><i class="fa-solid fa-check text-[#F5B400]"></i> Performance score
+                            98+</li>
+                    </ul>
+                    <button onclick="showPage('contact')"
+                        class="mt-12 px-12 py-5 bg-[#0A1931] text-white rounded-3xl">Start Your Website
+                        Project</button>
+                </div>
 
-        <!-- HEADING -->
-        <div class="text-center mb-20">
-            <h2 class="text-5xl font-bold text-[#0A1931]">Meet The Team</h2>
-            <p class="mt-4 text-lg text-gray-600">
-                The people behind TGS who turn ideas into profitable systems
+            </div>
+            <!--Real state network -->
+            <div class="grid md:grid-cols-12 gap-16 items-center">
+                <div class="md:col-span-5">
+                    <i class="fa-solid fa-building text-[180px] text-[#1F6FEB]"></i>
+                </div>
+                <div class="md:col-span-7">
+                    <h2 class="text-5xl font-semibold">Real Estate Network</h2>
+                    <p class="mt-8 text-xl text-gray-600">
+                        We connect property buyers, sellers, and trusted agents on one platform.
+                        Whether you want to buy, sell, or invest — TGS helps you find the right opportunity faster.
+                    </p>
+                    <ul class="mt-10 space-y-6 text-lg">
+                        <li class="flex gap-4">
+                            <i class="fa-solid fa-check text-[#F5B400]"></i>
+                            Verified property buyers & sellers
+                        </li>
+                        <li class="flex gap-4">
+                            <i class="fa-solid fa-check text-[#F5B400]"></i>
+                            Trusted real estate agents network
+                        </li>
+                        <li class="flex gap-4">
+                            <i class="fa-solid fa-check text-[#F5B400]"></i>
+                            Fast deals & genuine opportunities
+                        </li>
+                    </ul>
+                    <button onclick="showPage('contact')" class="mt-12 px-12 py-5 bg-[#0A1931] text-white rounded-3xl">
+                        Find Property / List Your Property
+                    </button>
+                </div>
+            </div>
+            <!--Digital marketing -->
+            <div class="grid md:grid-cols-12 gap-16 items-center">
+                <div class="md:col-span-5">
+                    <i class="fa-solid fa-bullhorn text-[180px] text-[#1F6FEB]"></i>
+                </div>
+                <div class="md:col-span-7">
+                    <h2 class="text-5xl font-semibold">Digital Marketing</h2>
+                    <p class="mt-8 text-xl text-gray-600">Result-driven digital marketing strategies to grow your
+                        business online. We focus on real leads, real customers, and real growth.</p>
+                    <ul class="mt-10 space-y-6 text-lg">
+                        <li class="flex gap-4"><i class="fa-solid fa-check text-[#F5B400]"></i> Social media
+                            marketing (Instagram & Facebook)</li>
+                        <li class="flex gap-4"><i class="fa-solid fa-check text-[#F5B400]"></i> Paid ads & lead
+                            generation</li>
+                        <li class="flex gap-4"><i class="fa-solid fa-check text-[#F5B400]"></i> Content & branding
+                            strategy</li>
+                    </ul>
+                    <button onclick="showPage('contact')"
+                        class="mt-12 px-12 py-5 bg-[#0A1931] text-white rounded-3xl">Grow Your Business Now</button>
+                </div>
+            </div>
+            <!--Business Ideation validation -->
+            <div class="grid md:grid-cols-12 gap-16 items-center">
+                <div class="md:col-span-5">
+                    <i class="fa-solid fa-lightbulb text-[180px] text-[#1F6FEB]"></i>
+                </div>
+                <div class="md:col-span-7">
+                    <h2 class="text-5xl font-semibold">Business Idea Validation</h2>
+                    <p class="mt-8 text-xl text-gray-600">Turn your ideas into profitable businesses. We analyze
+                        demand, competition, and profit potential before you invest your time and money.</p>
+                    <ul class="mt-10 space-y-6 text-lg">
+                        <li class="flex gap-4"><i class="fa-solid fa-check text-[#F5B400]"></i> Market demand
+                            research</li>
+                        <li class="flex gap-4"><i class="fa-solid fa-check text-[#F5B400]"></i> Competition analysis
+                        </li>
+                        <li class="flex gap-4"><i class="fa-solid fa-check text-[#F5B400]"></i> Profit & scalability
+                            check</li>
+                    </ul>
+                    <button onclick="showPage('contact')"
+                        class="mt-12 px-12 py-5 bg-[#0A1931] text-white rounded-3xl">Validate Your Idea</button>
+                </div>
+            </div>
+            <!--Automation -->
+            <div class="grid md:grid-cols-12 gap-16 items-center">
+                <div class="md:col-span-5">
+                    <i class="fa-solid fa-robot text-[180px] text-[#1F6FEB]"></i>
+                </div>
+                <div class="md:col-span-7">
+                    <h2 class="text-5xl font-semibold">Automation Services</h2>
+                    <p class="mt-8 text-xl text-gray-600">Save time and increase efficiency by automating your
+                        business processes with smart tools and systems.</p>
+                    <ul class="mt-10 space-y-6 text-lg">
+                        <li class="flex gap-4"><i class="fa-solid fa-check text-[#F5B400]"></i> WhatsApp automation
+                            & chatbots</li>
+                        <li class="flex gap-4"><i class="fa-solid fa-check text-[#F5B400]"></i> CRM & workflow
+                            automation</li>
+                        <li class="flex gap-4"><i class="fa-solid fa-check text-[#F5B400]"></i> Lead management
+                            systems</li>
+                    </ul>
+                    <button onclick="showPage('contact')"
+                        class="mt-12 px-12 py-5 bg-[#0A1931] text-white rounded-3xl">Automate Your Business</button>
+                </div>
+            </div>
+            <!-- Repeat for other 6 services (shortened for brevity but full structure present) -->
+            <!-- Software Solutions, Digital Marketing, Automation, Cloud, Analytics, E-commerce -->
+            <!-- Each follows same pattern with different icons and benefits -->
+            <!-- (Code continues similarly for remaining services – full version available on request) -->
+        </div>
+        <footer class="bg-[#0A1931] text-white py-12 text-center text-sm">© 2026 TGS – The Growth Source</footer>
+    </div>
+
+    <!-- ==================== SOLUTIONS / INDUSTRIES PAGE ==================== -->
+    <div id="industries-page" class="page bg-gray-50">
+
+        <!-- HEADER -->
+        <div class="py-24 text-center">
+            <h1 class="text-6xl font-bold text-[#0A1931]">Solutions by Industry</h1>
+            <p class="mt-6 text-xl text-gray-600 max-w-3xl mx-auto">
+                We don’t just build services. We build profitable systems based on real market demand.
             </p>
         </div>
 
-        <!-- GRID -->
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
+        <!-- INDUSTRY GRID -->
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-10 px-6 pb-24">
 
-            <!-- CARD -->
-            <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition group">
+            <!-- REAL ESTATE -->
+            <div class="bg-white p-8 rounded-3xl shadow-lg hover:shadow-2xl transition">
+                <h3 class="text-2xl font-bold text-[#0A1931]">🏢 Real Estate</h3>
 
-                <!-- IMAGE FIX -->
-                <div class="relative w-full aspect-[4/5] overflow-hidden bg-gray-200">
-                    <img src="./images/WhatsApp Image 2026-03-19 at 19.33.12.jpeg"
-                        class="w-full h-full object-cover object-top group-hover:scale-105 transition duration-500">
-                </div>
+                <p class="mt-4 text-gray-600">
+                    Problem: Low leads, high competition, no digital presence.
+                </p>
 
-                <!-- CONTENT -->
-                <div class="p-8 text-center">
-                    <h3 class="text-2xl font-bold text-[#0A1931]">Saim Kazi</h3>
-                    <p class="text-[#1F6FEB] font-semibold mt-1">Founder</p>
-                    <p class="mt-4 text-gray-600 text-sm leading-relaxed">
-                        Leads TGS with a vision to build profitable business systems based on real demand and data.
-                    </p>
-                </div>
+                <ul class="mt-4 space-y-2 text-gray-700 text-sm">
+                    <li>✔ High-converting property websites</li>
+                    <li>✔ Lead generation funnels</li>
+                    <li>✔ WhatsApp automation for clients</li>
+                </ul>
+
+                <p class="mt-4 font-semibold text-green-600">
+                    Result: 2x–5x more qualified leads
+                </p>
+
+                <button class="mt-6 px-6 py-3 bg-[#1F6FEB] text-white rounded-xl hover:scale-105 transition">
+                    Get Solution →
+                </button>
             </div>
 
-            <!-- PRAFUL -->
-            <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition group">
-                <div class="relative w-full aspect-[4/5] overflow-hidden bg-gray-200">
-                    <img src="./images/496510240_576862804971005_7353621515092664104_n_576862801637672 - Praful Kharpuriye.jpg"
-                        class="w-full h-full object-cover object-top group-hover:scale-105 transition duration-500">
-                </div>
-                <div class="p-8 text-center">
-                    <h3 class="text-2xl font-bold text-[#0A1931]">Praful</h3>
-                    <p class="text-[#1F6FEB] font-semibold mt-1">Co-Founder</p>
-                    <p class="mt-4 text-gray-600 text-sm">
-                        Ensures smooth operations and supports execution of TGS business systems.
-                    </p>
-                </div>
+            <!-- STARTUPS -->
+            <div class="bg-white p-8 rounded-3xl shadow-lg hover:shadow-2xl transition">
+                <h3 class="text-2xl font-bold text-[#0A1931]">🚀 Startups</h3>
+
+                <p class="mt-4 text-gray-600">
+                    Problem: Idea hai but direction aur validation nahi hai.
+                </p>
+
+                <ul class="mt-4 space-y-2 text-gray-700 text-sm">
+                    <li>✔ Idea validation & market research</li>
+                    <li>✔ MVP (Minimum Viable Product) development</li>
+                    <li>✔ Growth strategy & scaling systems</li>
+                </ul>
+
+                <p class="mt-4 font-semibold text-green-600">
+                    Result: Profitable and scalable business model
+                </p>
+
+                <button class="mt-6 px-6 py-3 bg-[#1F6FEB] text-white rounded-xl hover:scale-105 transition">
+                    Get Solution →
+                </button>
             </div>
 
-            <!-- SUJAL -->
-            <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition group">
-                <div class="relative w-full aspect-[4/5] overflow-hidden bg-gray-200">
-                    <img src="./images/IMG_20260311_205714994_HDR - Sujal Hirade.jpg"
-                        class="w-full h-full object-cover object-top group-hover:scale-105 transition duration-500">
-                </div>
-                <div class="p-8 text-center">
-                    <h3 class="text-2xl font-bold text-[#0A1931]">Sujal</h3>
-                    <p class="text-[#1F6FEB] font-semibold mt-1">Client Manager</p>
-                    <p class="mt-4 text-gray-600 text-sm">
-                        Manages client relationships and ensures smooth communication and delivery.
-                    </p>
-                </div>
+            <!-- RETAIL -->
+            <div class="bg-white p-8 rounded-3xl shadow-lg hover:shadow-2xl transition">
+                <h3 class="text-2xl font-bold text-[#0A1931]">🛍 Retail</h3>
+
+                <p class="mt-4 text-gray-600">
+                    Problem: Footfall kam hai, online presence weak hai.
+                </p>
+
+                <ul class="mt-4 space-y-2 text-gray-700 text-sm">
+                    <li>✔ Local SEO & Google visibility</li>
+                    <li>✔ Online catalog & ordering system</li>
+                    <li>✔ Social media ad campaigns</li>
+                </ul>
+
+                <p class="mt-4 font-semibold text-green-600">
+                    Result: More customers + increased sales
+                </p>
+
+                <button class="mt-6 px-6 py-3 bg-[#1F6FEB] text-white rounded-xl hover:scale-105 transition">
+                    Get Solution →
+                </button>
             </div>
 
-            <!-- VAISHALI -->
-            <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition group">
-                <div class="relative w-full aspect-[4/5] overflow-hidden bg-gray-200">
-                    <img src="https://via.placeholder.com/400x500"
-                        class="w-full h-full object-cover object-center group-hover:scale-105 transition duration-500">
-                </div>
-                <div class="p-8 text-center">
-                    <h3 class="text-2xl font-bold text-[#0A1931]">Vaishali</h3>
-                    <p class="text-[#1F6FEB] font-semibold mt-1">Web Designer</p>
-                    <p class="mt-4 text-gray-600 text-sm">
-                        Designs modern, user-friendly interfaces that improve experience and conversions.
-                    </p>
-                </div>
+            <!-- E-COMMERCE -->
+            <div class="bg-white p-8 rounded-3xl shadow-lg hover:shadow-2xl transition">
+                <h3 class="text-2xl font-bold text-[#0A1931]">🛒 E-commerce</h3>
+
+                <p class="mt-4 text-gray-600">
+                    Problem: Traffic hai but sales convert nahi ho rahe.
+                </p>
+
+                <ul class="mt-4 space-y-2 text-gray-700 text-sm">
+                    <li>✔ Conversion optimized websites</li>
+                    <li>✔ Funnel & checkout optimization</li>
+                    <li>✔ Performance marketing</li>
+                </ul>
+
+                <p class="mt-4 font-semibold text-green-600">
+                    Result: Higher conversion rate & revenue growth
+                </p>
+
+                <button class="mt-6 px-6 py-3 bg-[#1F6FEB] text-white rounded-xl hover:scale-105 transition">
+                    Get Solution →
+                </button>
             </div>
 
-            <!-- MAHESH -->
-            <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition group">
-                <div class="relative w-full aspect-[4/5] overflow-hidden bg-gray-200">
-                    <img src="./images/1704029724067 - Mahesh Bhakre.jpg"
-                        class="w-full h-full object-cover object-top group-hover:scale-105 transition duration-500">
-                </div>
-                <div class="p-8 text-center">
-                    <h3 class="text-2xl font-bold text-[#0A1931]">Mahesh</h3>
-                    <p class="text-[#1F6FEB] font-semibold mt-1">Research & Lead Generation</p>
-                    <p class="mt-4 text-gray-600 text-sm">
-                        Finds business opportunities by researching companies and identifying gaps.
-                    </p>
-                </div>
-            </div>
+            <!-- SERVICE COMPANIES -->
+            <div class="bg-white p-8 rounded-3xl shadow-lg hover:shadow-2xl transition">
+                <h3 class="text-2xl font-bold text-[#0A1931]">💼 Service Companies</h3>
 
-            <!-- AMMAR -->
-            <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition group">
-                <div class="relative w-full aspect-[4/5] overflow-hidden bg-gray-200">
-                    <img src="./images/1766154966428 - Ammar Khan Pathan.jpg"
-                        class="w-full h-full object-cover object-top group-hover:scale-105 transition duration-500">
-                </div>
-                <div class="p-8 text-center">
-                    <h3 class="text-2xl font-bold text-[#0A1931]">Ammar</h3>
-                    <p class="text-[#1F6FEB] font-semibold mt-1">Creative Specialist</p>
-                    <p class="mt-4 text-gray-600 text-sm">
-                        Brings creativity and innovative ideas to design, branding, and content.
-                    </p>
-                </div>
-            </div>
+                <p class="mt-4 text-gray-600">
+                    Problem: Clients irregular, no system for scaling.
+                </p>
 
-            <!-- SOHAM -->
-            <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition group">
-                <div class="relative w-full aspect-[4/5] overflow-hidden bg-gray-200">
-                    <img src="images/soham.jpg"
-                        class="w-full h-full object-cover object-top group-hover:scale-105 transition duration-500">
-                </div>
-                <div class="p-8 text-center">
-                    <h3 class="text-2xl font-bold text-[#0A1931]">Soham</h3>
-                    <p class="text-[#1F6FEB] font-semibold mt-1">Client Communication</p>
-                    <p class="mt-4 text-gray-600 text-sm">
-                        Handles client discussions and ensures clear understanding of requirements.
-                    </p>
-                </div>
+                <ul class="mt-4 space-y-2 text-gray-700 text-sm">
+                    <li>✔ Lead generation systems</li>
+                    <li>✔ CRM & automation setup</li>
+                    <li>✔ Branding & trust building</li>
+                </ul>
+
+                <p class="mt-4 font-semibold text-green-600">
+                    Result: Consistent clients & predictable revenue
+                </p>
+
+                <button class="mt-6 px-6 py-3 bg-[#1F6FEB] text-white rounded-xl hover:scale-105 transition">
+                    Get Solution →
+                </button>
             </div>
 
         </div>
-    </div>
-</section>
+
+        <!-- CTA SECTION -->
+        <div class="bg-[#0A1931] text-white text-center py-20">
+            <h2 class="text-4xl font-bold">Not Sure Where You Fit?</h2>
+            <p class="mt-4 text-gray-300">
+                We analyze your business and create a custom growth system for you.
+            </p>
+
+            <button class="mt-6 px-8 py-4 bg-[#F5B400] text-black font-bold rounded-xl hover:scale-105 transition">
+                Talk to TGS →
+            </button>
+        </div>
+
+        <footer class="bg-[#0A1931] text-white py-12 text-center text-sm">
+            © 2026 TGS – The Growth Source
+        </footer>
 
     </div>
-</section>
 
-    <footer class="bg-[#0A1931] text-white py-12 text-center text-sm">
-        © 2026 TGS – The Growth Source
-    </footer>
+    <div id="projects-page" class="page bg-gray-50">
 
-</div>
+        <div class="max-w-7xl mx-auto px-6 py-24">
 
+            <!-- HEADING -->
+            <h1 class="text-6xl font-semibold logo-font text-center text-[#0A1931]">
+                Our Work
+            </h1>
 
-        <!-- ==================== SERVICES PAGE ==================== -->
-        <div id="services-page" class="page">
-            <div class="bg-[#0A1931] py-24 text-white">
-                <div class="max-w-6xl mx-auto px-6 text-center">
-                    <span class="text-[#F5B400] text-sm font-bold">SERVICES</span>
-                    <h1 class="text-6xl font-semibold logo-font mt-4">Everything You Need to Grow</h1>
-                </div>
+            <p class="text-center mt-6 text-lg text-gray-600 max-w-2xl mx-auto">
+                Real problems. Real solutions. Real results.
+                This is how TGS builds and scales businesses.
+            </p>
+
+            <!-- FILTER BUTTONS -->
+            <div class="flex justify-center gap-4 mt-12 flex-wrap">
+                <button class="px-5 py-2 bg-[#1F6FEB] text-white rounded-xl">All</button>
+                <button class="px-5 py-2 bg-gray-200 rounded-xl">Real Estate</button>
+                <button class="px-5 py-2 bg-gray-200 rounded-xl">Startup</button>
+                <button class="px-5 py-2 bg-gray-200 rounded-xl">E-commerce</button>
+                <button class="px-5 py-2 bg-gray-200 rounded-xl">Services</button>
             </div>
 
-            <div class="max-w-7xl mx-auto px-6 py-20 space-y-28">
-                <!-- Website Development -->
-                <div class="grid md:grid-cols-12 gap-16 items-center">
-                    <div class="md:col-span-5">
-                        <i class="fa-solid fa-globe text-[180px] text-[#1F6FEB]"></i>
-                    </div>
-                    <div class="md:col-span-7">
-                        <h2 class="text-5xl font-semibold">Website Development</h2>
-                        <p class="mt-8 text-xl text-gray-600">Modern, lightning-fast websites built with Next.js,
-                            Tailwind &amp; Framer Motion. Fully responsive, SEO-ready, and conversion-focused.</p>
-                        <ul class="mt-10 space-y-6 text-lg">
-                            <li class="flex gap-4"><i class="fa-solid fa-check text-[#F5B400]"></i> Custom design &amp;
-                                branding</li>
-                            <li class="flex gap-4"><i class="fa-solid fa-check text-[#F5B400]"></i> CMS integration
-                                (WordPress / Sanity)</li>
-                            <li class="flex gap-4"><i class="fa-solid fa-check text-[#F5B400]"></i> Performance score
-                                98+</li>
-                        </ul>
-                        <button onclick="showPage('contact')"
-                            class="mt-12 px-12 py-5 bg-[#0A1931] text-white rounded-3xl">Start Your Website
-                            Project</button>
-                    </div>
+            <!-- PROJECT GRID -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10 mt-16">
 
-                </div>
-                <!--Real state network -->
-                <div class="grid md:grid-cols-12 gap-16 items-center">
-                    <div class="md:col-span-5">
-                        <i class="fa-solid fa-building text-[180px] text-[#1F6FEB]"></i>
-                    </div>
-                    <div class="md:col-span-7">
-                        <h2 class="text-5xl font-semibold">Real Estate Network</h2>
-                        <p class="mt-8 text-xl text-gray-600">
-                            We connect property buyers, sellers, and trusted agents on one platform.
-                            Whether you want to buy, sell, or invest — TGS helps you find the right opportunity faster.
+                <!-- PROJECT CARD -->
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition">
+
+                    <img src="https://picsum.photos/400/250" class="w-full h-56 object-cover">
+
+                    <div class="p-6">
+
+                        <h3 class="text-xl font-bold text-[#0A1931]">
+                            Real Estate Lead System
+                        </h3>
+
+                        <!-- PROBLEM -->
+                        <p class="mt-3 text-sm text-red-500 font-semibold">
+                            Problem: No consistent property leads
                         </p>
-                        <ul class="mt-10 space-y-6 text-lg">
-                            <li class="flex gap-4">
-                                <i class="fa-solid fa-check text-[#F5B400]"></i>
-                                Verified property buyers & sellers
-                            </li>
-                            <li class="flex gap-4">
-                                <i class="fa-solid fa-check text-[#F5B400]"></i>
-                                Trusted real estate agents network
-                            </li>
-                            <li class="flex gap-4">
-                                <i class="fa-solid fa-check text-[#F5B400]"></i>
-                                Fast deals & genuine opportunities
-                            </li>
-                        </ul>
-                        <button onclick="showPage('contact')"
-                            class="mt-12 px-12 py-5 bg-[#0A1931] text-white rounded-3xl">
-                            Find Property / List Your Property
+
+                        <!-- SOLUTION -->
+                        <p class="mt-2 text-sm text-gray-600">
+                            Built a high-converting website + lead funnel + WhatsApp automation.
+                        </p>
+
+                        <!-- RESULT -->
+                        <p class="mt-3 text-sm text-green-600 font-semibold">
+                            Result: 3x increase in qualified leads within 30 days
+                        </p>
+
+                        <button class="mt-5 text-[#1F6FEB] font-semibold hover:underline">
+                            View Case Study →
+                        </button>
+
+                    </div>
+                </div>
+
+                <!-- PROJECT CARD -->
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition">
+
+                    <img src="https://picsum.photos/401/250" class="w-full h-56 object-cover">
+
+                    <div class="p-6">
+
+                        <h3 class="text-xl font-bold text-[#0A1931]">
+                            Startup MVP Launch
+                        </h3>
+
+                        <p class="mt-3 text-sm text-red-500 font-semibold">
+                            Problem: Idea tha but no direction or validation
+                        </p>
+
+                        <p class="mt-2 text-sm text-gray-600">
+                            Conducted market research and built MVP with growth strategy.
+                        </p>
+
+                        <p class="mt-3 text-sm text-green-600 font-semibold">
+                            Result: Profitable within first 2 months
+                        </p>
+
+                        <button class="mt-5 text-[#1F6FEB] font-semibold hover:underline">
+                            View Case Study →
+                        </button>
+
+                    </div>
+                </div>
+
+                <!-- PROJECT CARD -->
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition">
+
+                    <img src="https://picsum.photos/402/250" class="w-full h-56 object-cover">
+
+                    <div class="p-6">
+
+                        <h3 class="text-xl font-bold text-[#0A1931]">
+                            E-commerce Conversion Boost
+                        </h3>
+
+                        <p class="mt-3 text-sm text-red-500 font-semibold">
+                            Problem: Traffic tha but sales convert nahi ho rahe
+                        </p>
+
+                        <p class="mt-2 text-sm text-gray-600">
+                            Optimized website UI, checkout flow and ran performance ads.
+                        </p>
+
+                        <p class="mt-3 text-sm text-green-600 font-semibold">
+                            Result: 2.5x increase in conversion rate
+                        </p>
+
+                        <button class="mt-5 text-[#1F6FEB] font-semibold hover:underline">
+                            View Case Study →
+                        </button>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ==================== REFERRAL PROGRAM PAGE ==================== -->
+    <div id="referral-page" class="page">
+        <div class="hero-bg h-screen flex items-center justify-center text-white text-center">
+            <div class="max-w-3xl">
+                <h1 class="text-7xl font-bold logo-font">Refer Clients.<br>Earn 20% Commission.</h1>
+                <p class="mt-8 text-2xl">For every successful referral, you earn 20% of the first-year contract
+                    value – paid quarterly.</p>
+                <button onclick="showPage('contact')"
+                    class="mt-16 text-2xl px-16 py-7 bg-[#F5B400] text-[#0A1931] rounded-3xl font-bold">Apply Now –
+                    It’s Free</button>
+            </div>
+        </div>
+        <!-- Step-by-step process with illustrations -->
+    </div>
+
+    <!-- ==================== BLOG PAGE ==================== -->
+    <div id="blog-page" class="page bg-gray-50 py-20 px-6">
+        <div class="max-w-7xl mx-auto">
+
+            <!-- Heading -->
+            <div class="text-center mb-16">
+                <h1 class="text-5xl font-bold text-[#0A1931]">Our Insights</h1>
+                <p class="mt-4 text-lg text-gray-600">
+                    Real updates, ideas and growth stories from TGS
+                </p>
+            </div>
+
+            <!-- Blog Grid -->
+            <div class="grid md:grid-cols-3 gap-10">
+
+                <!-- BLOG CARD (IMAGE) -->
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300">
+                    <img src="https://via.placeholder.com/400x250" class="w-full h-56 object-cover">
+
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-[#0A1931]">
+                            How We Built a Profitable Startup
+                        </h3>
+                        <p class="mt-3 text-gray-600">
+                            Learn how TGS validates ideas and builds real profitable businesses from scratch.
+                        </p>
+
+                        <button class="mt-4 text-[#1F6FEB] font-semibold hover:underline">
+                            Read More →
                         </button>
                     </div>
                 </div>
-                <!--Digital marketing -->
-                <div class="grid md:grid-cols-12 gap-16 items-center">
-                    <div class="md:col-span-5">
-                        <i class="fa-solid fa-bullhorn text-[180px] text-[#1F6FEB]"></i>
-                    </div>
-                    <div class="md:col-span-7">
-                        <h2 class="text-5xl font-semibold">Digital Marketing</h2>
-                        <p class="mt-8 text-xl text-gray-600">Result-driven digital marketing strategies to grow your
-                            business online. We focus on real leads, real customers, and real growth.</p>
-                        <ul class="mt-10 space-y-6 text-lg">
-                            <li class="flex gap-4"><i class="fa-solid fa-check text-[#F5B400]"></i> Social media
-                                marketing (Instagram & Facebook)</li>
-                            <li class="flex gap-4"><i class="fa-solid fa-check text-[#F5B400]"></i> Paid ads & lead
-                                generation</li>
-                            <li class="flex gap-4"><i class="fa-solid fa-check text-[#F5B400]"></i> Content & branding
-                                strategy</li>
-                        </ul>
-                        <button onclick="showPage('contact')"
-                            class="mt-12 px-12 py-5 bg-[#0A1931] text-white rounded-3xl">Grow Your Business Now</button>
-                    </div>
-                </div>
-                <!--Business Ideation validation -->
-                <div class="grid md:grid-cols-12 gap-16 items-center">
-                    <div class="md:col-span-5">
-                        <i class="fa-solid fa-lightbulb text-[180px] text-[#1F6FEB]"></i>
-                    </div>
-                    <div class="md:col-span-7">
-                        <h2 class="text-5xl font-semibold">Business Idea Validation</h2>
-                        <p class="mt-8 text-xl text-gray-600">Turn your ideas into profitable businesses. We analyze
-                            demand, competition, and profit potential before you invest your time and money.</p>
-                        <ul class="mt-10 space-y-6 text-lg">
-                            <li class="flex gap-4"><i class="fa-solid fa-check text-[#F5B400]"></i> Market demand
-                                research</li>
-                            <li class="flex gap-4"><i class="fa-solid fa-check text-[#F5B400]"></i> Competition analysis
-                            </li>
-                            <li class="flex gap-4"><i class="fa-solid fa-check text-[#F5B400]"></i> Profit & scalability
-                                check</li>
-                        </ul>
-                        <button onclick="showPage('contact')"
-                            class="mt-12 px-12 py-5 bg-[#0A1931] text-white rounded-3xl">Validate Your Idea</button>
+
+                <!-- BLOG CARD (VIDEO) -->
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300">
+                    <video controls class="w-full h-56 object-cover">
+                        <source src="your-video.mp4" type="video/mp4">
+                    </video>
+
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-[#0A1931]">
+                            Business Growth Strategy Explained
+                        </h3>
+                        <p class="mt-3 text-gray-600">
+                            Watch how we analyze market demand before starting any business.
+                        </p>
+
+                        <button class="mt-4 text-[#1F6FEB] font-semibold hover:underline">
+                            Watch Now →
+                        </button>
                     </div>
                 </div>
-                <!--Automation -->
-                <div class="grid md:grid-cols-12 gap-16 items-center">
-                    <div class="md:col-span-5">
-                        <i class="fa-solid fa-robot text-[180px] text-[#1F6FEB]"></i>
-                    </div>
-                    <div class="md:col-span-7">
-                        <h2 class="text-5xl font-semibold">Automation Services</h2>
-                        <p class="mt-8 text-xl text-gray-600">Save time and increase efficiency by automating your
-                            business processes with smart tools and systems.</p>
-                        <ul class="mt-10 space-y-6 text-lg">
-                            <li class="flex gap-4"><i class="fa-solid fa-check text-[#F5B400]"></i> WhatsApp automation
-                                & chatbots</li>
-                            <li class="flex gap-4"><i class="fa-solid fa-check text-[#F5B400]"></i> CRM & workflow
-                                automation</li>
-                            <li class="flex gap-4"><i class="fa-solid fa-check text-[#F5B400]"></i> Lead management
-                                systems</li>
-                        </ul>
-                        <button onclick="showPage('contact')"
-                            class="mt-12 px-12 py-5 bg-[#0A1931] text-white rounded-3xl">Automate Your Business</button>
+
+                <!-- BLOG CARD -->
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300">
+                    <img src="https://via.placeholder.com/400x250" class="w-full h-56 object-cover">
+
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-[#0A1931]">
+                            Why Most Startups Fail
+                        </h3>
+                        <p class="mt-3 text-gray-600">
+                            Understanding the biggest mistakes people make while starting a business.
+                        </p>
+
+                        <button class="mt-4 text-[#1F6FEB] font-semibold hover:underline">
+                            Read More →
+                        </button>
                     </div>
                 </div>
-                <!-- Repeat for other 6 services (shortened for brevity but full structure present) -->
-                <!-- Software Solutions, Digital Marketing, Automation, Cloud, Analytics, E-commerce -->
-                <!-- Each follows same pattern with different icons and benefits -->
-                <!-- (Code continues similarly for remaining services – full version available on request) -->
+
             </div>
-            <footer class="bg-[#0A1931] text-white py-12 text-center text-sm">© 2026 TGS – The Growth Source</footer>
         </div>
-
-        <!-- ==================== SOLUTIONS / INDUSTRIES PAGE ==================== -->
-       <div id="industries-page" class="page bg-gray-50">
-
-    <!-- HEADER -->
-    <div class="py-24 text-center">
-        <h1 class="text-6xl font-bold text-[#0A1931]">Solutions by Industry</h1>
-        <p class="mt-6 text-xl text-gray-600 max-w-3xl mx-auto">
-            We don’t just build services. We build profitable systems based on real market demand.
-        </p>
     </div>
 
-    <!-- INDUSTRY GRID -->
-    <div class="max-w-7xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-10 px-6 pb-24">
-
-        <!-- REAL ESTATE -->
-        <div class="bg-white p-8 rounded-3xl shadow-lg hover:shadow-2xl transition">
-            <h3 class="text-2xl font-bold text-[#0A1931]">🏢 Real Estate</h3>
-
-            <p class="mt-4 text-gray-600">
-                Problem: Low leads, high competition, no digital presence.
-            </p>
-
-            <ul class="mt-4 space-y-2 text-gray-700 text-sm">
-                <li>✔ High-converting property websites</li>
-                <li>✔ Lead generation funnels</li>
-                <li>✔ WhatsApp automation for clients</li>
-            </ul>
-
-            <p class="mt-4 font-semibold text-green-600">
-                Result: 2x–5x more qualified leads
-            </p>
-
-            <button class="mt-6 px-6 py-3 bg-[#1F6FEB] text-white rounded-xl hover:scale-105 transition">
-                Get Solution →
-            </button>
-        </div>
-
-        <!-- STARTUPS -->
-        <div class="bg-white p-8 rounded-3xl shadow-lg hover:shadow-2xl transition">
-            <h3 class="text-2xl font-bold text-[#0A1931]">🚀 Startups</h3>
-
-            <p class="mt-4 text-gray-600">
-                Problem: Idea hai but direction aur validation nahi hai.
-            </p>
-
-            <ul class="mt-4 space-y-2 text-gray-700 text-sm">
-                <li>✔ Idea validation & market research</li>
-                <li>✔ MVP (Minimum Viable Product) development</li>
-                <li>✔ Growth strategy & scaling systems</li>
-            </ul>
-
-            <p class="mt-4 font-semibold text-green-600">
-                Result: Profitable and scalable business model
-            </p>
-
-            <button class="mt-6 px-6 py-3 bg-[#1F6FEB] text-white rounded-xl hover:scale-105 transition">
-                Get Solution →
-            </button>
-        </div>
-
-        <!-- RETAIL -->
-        <div class="bg-white p-8 rounded-3xl shadow-lg hover:shadow-2xl transition">
-            <h3 class="text-2xl font-bold text-[#0A1931]">🛍 Retail</h3>
-
-            <p class="mt-4 text-gray-600">
-                Problem: Footfall kam hai, online presence weak hai.
-            </p>
-
-            <ul class="mt-4 space-y-2 text-gray-700 text-sm">
-                <li>✔ Local SEO & Google visibility</li>
-                <li>✔ Online catalog & ordering system</li>
-                <li>✔ Social media ad campaigns</li>
-            </ul>
-
-            <p class="mt-4 font-semibold text-green-600">
-                Result: More customers + increased sales
-            </p>
-
-            <button class="mt-6 px-6 py-3 bg-[#1F6FEB] text-white rounded-xl hover:scale-105 transition">
-                Get Solution →
-            </button>
-        </div>
-
-        <!-- E-COMMERCE -->
-        <div class="bg-white p-8 rounded-3xl shadow-lg hover:shadow-2xl transition">
-            <h3 class="text-2xl font-bold text-[#0A1931]">🛒 E-commerce</h3>
-
-            <p class="mt-4 text-gray-600">
-                Problem: Traffic hai but sales convert nahi ho rahe.
-            </p>
-
-            <ul class="mt-4 space-y-2 text-gray-700 text-sm">
-                <li>✔ Conversion optimized websites</li>
-                <li>✔ Funnel & checkout optimization</li>
-                <li>✔ Performance marketing</li>
-            </ul>
-
-            <p class="mt-4 font-semibold text-green-600">
-                Result: Higher conversion rate & revenue growth
-            </p>
-
-            <button class="mt-6 px-6 py-3 bg-[#1F6FEB] text-white rounded-xl hover:scale-105 transition">
-                Get Solution →
-            </button>
-        </div>
-
-        <!-- SERVICE COMPANIES -->
-        <div class="bg-white p-8 rounded-3xl shadow-lg hover:shadow-2xl transition">
-            <h3 class="text-2xl font-bold text-[#0A1931]">💼 Service Companies</h3>
-
-            <p class="mt-4 text-gray-600">
-                Problem: Clients irregular, no system for scaling.
-            </p>
-
-            <ul class="mt-4 space-y-2 text-gray-700 text-sm">
-                <li>✔ Lead generation systems</li>
-                <li>✔ CRM & automation setup</li>
-                <li>✔ Branding & trust building</li>
-            </ul>
-
-            <p class="mt-4 font-semibold text-green-600">
-                Result: Consistent clients & predictable revenue
-            </p>
-
-            <button class="mt-6 px-6 py-3 bg-[#1F6FEB] text-white rounded-xl hover:scale-105 transition">
-                Get Solution →
-            </button>
-        </div>
-
-    </div>
-
-    <!-- CTA SECTION -->
-    <div class="bg-[#0A1931] text-white text-center py-20">
-        <h2 class="text-4xl font-bold">Not Sure Where You Fit?</h2>
-        <p class="mt-4 text-gray-300">
-            We analyze your business and create a custom growth system for you.
-        </p>
-
-        <button class="mt-6 px-8 py-4 bg-[#F5B400] text-black font-bold rounded-xl hover:scale-105 transition">
-            Talk to TGS →
-        </button>
-    </div>
-
-    <footer class="bg-[#0A1931] text-white py-12 text-center text-sm">
-        © 2026 TGS – The Growth Source
-    </footer>
-
-</div>
-
-     <div id="projects-page" class="page bg-gray-50">
-
-    <div class="max-w-7xl mx-auto px-6 py-24">
-
-        <!-- HEADING -->
-        <h1 class="text-6xl font-semibold logo-font text-center text-[#0A1931]">
-            Our Work
-        </h1>
-
-        <p class="text-center mt-6 text-lg text-gray-600 max-w-2xl mx-auto">
-            Real problems. Real solutions. Real results.  
-            This is how TGS builds and scales businesses.
-        </p>
-
-        <!-- FILTER BUTTONS -->
-        <div class="flex justify-center gap-4 mt-12 flex-wrap">
-            <button class="px-5 py-2 bg-[#1F6FEB] text-white rounded-xl">All</button>
-            <button class="px-5 py-2 bg-gray-200 rounded-xl">Real Estate</button>
-            <button class="px-5 py-2 bg-gray-200 rounded-xl">Startup</button>
-            <button class="px-5 py-2 bg-gray-200 rounded-xl">E-commerce</button>
-            <button class="px-5 py-2 bg-gray-200 rounded-xl">Services</button>
-        </div>
-
-        <!-- PROJECT GRID -->
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10 mt-16">
-
-            <!-- PROJECT CARD -->
-            <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition">
-
-                <img src="https://picsum.photos/400/250" class="w-full h-56 object-cover">
-
-                <div class="p-6">
-
-                    <h3 class="text-xl font-bold text-[#0A1931]">
-                        Real Estate Lead System
-                    </h3>
-
-                    <!-- PROBLEM -->
-                    <p class="mt-3 text-sm text-red-500 font-semibold">
-                        Problem: No consistent property leads
-                    </p>
-
-                    <!-- SOLUTION -->
-                    <p class="mt-2 text-sm text-gray-600">
-                        Built a high-converting website + lead funnel + WhatsApp automation.
-                    </p>
-
-                    <!-- RESULT -->
-                    <p class="mt-3 text-sm text-green-600 font-semibold">
-                        Result: 3x increase in qualified leads within 30 days
-                    </p>
-
-                    <button class="mt-5 text-[#1F6FEB] font-semibold hover:underline">
-                        View Case Study →
-                    </button>
-
-                </div>
-            </div>
-
-            <!-- PROJECT CARD -->
-            <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition">
-
-                <img src="https://picsum.photos/401/250" class="w-full h-56 object-cover">
-
-                <div class="p-6">
-
-                    <h3 class="text-xl font-bold text-[#0A1931]">
-                        Startup MVP Launch
-                    </h3>
-
-                    <p class="mt-3 text-sm text-red-500 font-semibold">
-                        Problem: Idea tha but no direction or validation
-                    </p>
-
-                    <p class="mt-2 text-sm text-gray-600">
-                        Conducted market research and built MVP with growth strategy.
-                    </p>
-
-                    <p class="mt-3 text-sm text-green-600 font-semibold">
-                        Result: Profitable within first 2 months
-                    </p>
-
-                    <button class="mt-5 text-[#1F6FEB] font-semibold hover:underline">
-                        View Case Study →
-                    </button>
-
-                </div>
-            </div>
-
-            <!-- PROJECT CARD -->
-            <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition">
-
-                <img src="https://picsum.photos/402/250" class="w-full h-56 object-cover">
-
-                <div class="p-6">
-
-                    <h3 class="text-xl font-bold text-[#0A1931]">
-                        E-commerce Conversion Boost
-                    </h3>
-
-                    <p class="mt-3 text-sm text-red-500 font-semibold">
-                        Problem: Traffic tha but sales convert nahi ho rahe
-                    </p>
-
-                    <p class="mt-2 text-sm text-gray-600">
-                        Optimized website UI, checkout flow and ran performance ads.
-                    </p>
-
-                    <p class="mt-3 text-sm text-green-600 font-semibold">
-                        Result: 2.5x increase in conversion rate
-                    </p>
-
-                    <button class="mt-5 text-[#1F6FEB] font-semibold hover:underline">
-                        View Case Study →
-                    </button>
-
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-
-</div>
-
-        <!-- ==================== REFERRAL PROGRAM PAGE ==================== -->
-        <div id="referral-page" class="page">
-            <div class="hero-bg h-screen flex items-center justify-center text-white text-center">
-                <div class="max-w-3xl">
-                    <h1 class="text-7xl font-bold logo-font">Refer Clients.<br>Earn 20% Commission.</h1>
-                    <p class="mt-8 text-2xl">For every successful referral, you earn 20% of the first-year contract
-                        value – paid quarterly.</p>
-                    <button onclick="showPage('contact')"
-                        class="mt-16 text-2xl px-16 py-7 bg-[#F5B400] text-[#0A1931] rounded-3xl font-bold">Apply Now –
-                        It’s Free</button>
-                </div>
-            </div>
-            <!-- Step-by-step process with illustrations -->
-        </div>
-
-        <!-- ==================== BLOG PAGE ==================== -->
-        <div id="blog-page" class="page bg-gray-50 py-20 px-6">
-    <div class="max-w-7xl mx-auto">
-
-        <!-- Heading -->
-        <div class="text-center mb-16">
-            <h1 class="text-5xl font-bold text-[#0A1931]">Our Insights</h1>
-            <p class="mt-4 text-lg text-gray-600">
-                Real updates, ideas and growth stories from TGS
-            </p>
-        </div>
-
-        <!-- Blog Grid -->
-        <div class="grid md:grid-cols-3 gap-10">
-
-            <!-- BLOG CARD (IMAGE) -->
-            <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300">
-                <img src="https://via.placeholder.com/400x250" class="w-full h-56 object-cover">
-
-                <div class="p-6">
-                    <h3 class="text-xl font-bold text-[#0A1931]">
-                        How We Built a Profitable Startup
-                    </h3>
-                    <p class="mt-3 text-gray-600">
-                        Learn how TGS validates ideas and builds real profitable businesses from scratch.
-                    </p>
-
-                    <button class="mt-4 text-[#1F6FEB] font-semibold hover:underline">
-                        Read More →
-                    </button>
-                </div>
-            </div>
-
-            <!-- BLOG CARD (VIDEO) -->
-            <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300">
-                <video controls class="w-full h-56 object-cover">
-                    <source src="your-video.mp4" type="video/mp4">
-                </video>
-
-                <div class="p-6">
-                    <h3 class="text-xl font-bold text-[#0A1931]">
-                        Business Growth Strategy Explained
-                    </h3>
-                    <p class="mt-3 text-gray-600">
-                        Watch how we analyze market demand before starting any business.
-                    </p>
-
-                    <button class="mt-4 text-[#1F6FEB] font-semibold hover:underline">
-                        Watch Now →
-                    </button>
-                </div>
-            </div>
-
-            <!-- BLOG CARD -->
-            <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300">
-                <img src="https://via.placeholder.com/400x250" class="w-full h-56 object-cover">
-
-                <div class="p-6">
-                    <h3 class="text-xl font-bold text-[#0A1931]">
-                        Why Most Startups Fail
-                    </h3>
-                    <p class="mt-3 text-gray-600">
-                        Understanding the biggest mistakes people make while starting a business.
-                    </p>
-
-                    <button class="mt-4 text-[#1F6FEB] font-semibold hover:underline">
-                        Read More →
-                    </button>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</div>
-
-        <!-- ==================== CONTACT PAGE ==================== -->
+    <!-- ==================== CONTACT PAGE ==================== -->
     <div id="contact-page" class="page bg-gradient-to-br from-[#0A1931] to-[#1F6FEB] text-white">
-    <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 px-6 py-24 items-center">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 px-6 py-24 items-center">
 
-        <!-- LEFT SIDE -->
-        <div>
-            <h1 class="text-6xl font-bold leading-tight">
-                Let’s Grow <span class="text-[#F5B400]">Together</span>
-            </h1>
-            <p class="mt-6 text-xl text-gray-300">
-                Tell us your business idea and we will help you build, scale and grow it like a real startup.
-            </p>
-
-            <!-- FORM -->
-            <form id="contact-form" class="mt-12 space-y-6 backdrop-blur-xl bg-white/10 p-10 rounded-3xl border border-white/20 shadow-2xl">
-
-                <input type="text" placeholder="Your Name"
-                    class="w-full px-6 py-4 rounded-xl bg-white/20 border border-white/30 placeholder-gray-300 focus:border-[#F5B400] outline-none">
-
-                <input type="email" placeholder="Business Email"
-                    class="w-full px-6 py-4 rounded-xl bg-white/20 border border-white/30 placeholder-gray-300 focus:border-[#F5B400] outline-none">
-
-                <input type="tel" placeholder="Phone Number"
-                    class="w-full px-6 py-4 rounded-xl bg-white/20 border border-white/30 placeholder-gray-300 focus:border-[#F5B400] outline-none">
-
-                <textarea placeholder="Tell us about your business goals..." rows="5"
-                    class="w-full px-6 py-4 rounded-xl bg-white/20 border border-white/30 placeholder-gray-300 focus:border-[#F5B400] outline-none"></textarea>
-
-                <button type="submit"
-                    class="w-full py-4 bg-[#F5B400] text-black font-bold text-lg rounded-xl hover:scale-105 transition duration-300 shadow-lg">
-                    🚀 Send Message
-                </button>
-
-            </form>
-        </div>
-
-        <!-- RIGHT SIDE -->
-        <div class="space-y-10">
-
-            <!-- CONTACT CARD -->
-            <div class="bg-white text-black p-8 rounded-3xl shadow-2xl">
-                <h3 class="text-2xl font-bold">📍 Nagpur Office</h3>
-                <p class="mt-4 text-lg text-gray-700">
-                   
+            <!-- LEFT SIDE -->
+            <div>
+                <h1 class="text-6xl font-bold leading-tight">
+                    Let’s Grow <span class="text-[#F5B400]">Together</span>
+                </h1>
+                <p class="mt-6 text-xl text-gray-300">
+                    Tell us your business idea and we will help you build, scale and grow it like a real startup.
                 </p>
 
-                <div class="mt-6 text-lg font-semibold">
-                    📞 +91 9764090337<br>
-                    ✉ tgsoofficialacgmail.com
+                <!-- FORM -->
+                <form id="contact-form"
+                    class="mt-12 space-y-6 backdrop-blur-xl bg-white/10 p-10 rounded-3xl border border-white/20 shadow-2xl">
+
+                    <input type="text" placeholder="Your Name"
+                        class="w-full px-6 py-4 rounded-xl bg-white/20 border border-white/30 placeholder-gray-300 focus:border-[#F5B400] outline-none">
+
+                    <input type="email" placeholder="Business Email"
+                        class="w-full px-6 py-4 rounded-xl bg-white/20 border border-white/30 placeholder-gray-300 focus:border-[#F5B400] outline-none">
+
+                    <input type="tel" placeholder="Phone Number"
+                        class="w-full px-6 py-4 rounded-xl bg-white/20 border border-white/30 placeholder-gray-300 focus:border-[#F5B400] outline-none">
+
+                    <textarea placeholder="Tell us about your business goals..." rows="5"
+                        class="w-full px-6 py-4 rounded-xl bg-white/20 border border-white/30 placeholder-gray-300 focus:border-[#F5B400] outline-none"></textarea>
+
+                    <button type="submit"
+                        class="w-full py-4 bg-[#F5B400] text-black font-bold text-lg rounded-xl hover:scale-105 transition duration-300 shadow-lg">
+                        🚀 Send Message
+                    </button>
+
+                </form>
+            </div>
+
+            <!-- RIGHT SIDE -->
+            <div class="space-y-10">
+
+                <!-- CONTACT CARD -->
+                <div class="bg-white text-black p-8 rounded-3xl shadow-2xl">
+                    <h3 class="text-2xl font-bold">📍 Nagpur Office</h3>
+                    <p class="mt-4 text-lg text-gray-700">
+
+                    </p>
+
+                    <div class="mt-6 text-lg font-semibold">
+                        📞 +91 9764090337<br>
+                        ✉ tgsoofficialacgmail.com
+                    </div>
                 </div>
-            </div>
 
-            <!-- MAP -->
-            <div class="rounded-3xl overflow-hidden shadow-2xl border-4 border-white/20">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.5!2d73.789!3d20.0"
-                    width="100%" height="300" style="border:0;" loading="lazy">
-                </iframe>
-            </div>
+                <!-- MAP -->
+                <div class="rounded-3xl overflow-hidden shadow-2xl border-4 border-white/20">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.5!2d73.789!3d20.0"
+                        width="100%" height="300" style="border:0;" loading="lazy">
+                    </iframe>
+                </div>
 
+            </div>
         </div>
     </div>
-</div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/index.js"></script>
 
